@@ -1,0 +1,25 @@
+.hole-game {
+    margin: auto;
+    width: 600px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+  }
+  
+
+  .hole {
+    width: 100px;
+    height: 100px;
+    margin: 0 15px 30px;
+    background: rgb(75, 163, 126);
+    border-radius: 10%;
+  }
+  
+  .gobin_in_hole {
+    background-image: url(../img/goblin.png);
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: contain;
+    
+  }
+  
